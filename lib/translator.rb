@@ -4,8 +4,7 @@
 def load_library(path)
   # code goes here
   final_hash={}
-  pry(main)> YAML.load_file
-  binding.pry
+  YAML.load_file(path)
   final_hash
 end
 
