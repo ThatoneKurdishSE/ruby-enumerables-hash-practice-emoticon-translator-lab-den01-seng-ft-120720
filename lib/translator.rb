@@ -11,7 +11,9 @@ def load_library(path)
   final_hash
 end
 def get_japanese_emoticon(path, emoticon)
-  load_library()
+  load_library(path).each do |key, value|
+    
+end
 end
 
 def get_english_meaning
